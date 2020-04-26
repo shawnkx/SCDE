@@ -1,2 +1,33 @@
-# SCDE
-Code and data for SCED sentence cloze dataset
+# SCDE: Sentence Cloze Dataset with High Quality Distractors From Examinations
+
+Code for the paper:
+
+[Sentence Cloze Dataset with High Quality Distractors From Examinations](). Xiang Kong*, Varun Gangal*, and Eduard Hovy.
+
+## Dependencies
+* Python 3.6+
+* Pytorch 1.2
+* [Transformers](https://github.com/huggingface/transformers) 2.1.1
+
+## Datasets
+* SCDE:
+    Please submit a data request [here](https://vgtomahawk.github.io/sced.html). The data will be automatically sent to you. Please also check your spam folder.
+
+## Usage
+### Installing the Transformers from the source
+    cd transformers
+    pip install .
+### Preprocessing (get the AP+AN context features)
+    python extract_features.py --output_dir all_prev_next_test --input_dir scde_data/ --feature_type apn
+### Finetune a BERT-based model
+    bash train.sh feature_dir
+
+
+## Acknowledgement
+* The code is adapted from Transformers (https://github.com/huggingface/transformers). Thanks!
+
+## License
+MIT
+
+
+
