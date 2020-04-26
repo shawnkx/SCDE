@@ -2,7 +2,7 @@
 
 Code for the paper:
 
-[Sentence Cloze Dataset with High Quality Distractors From Examinations](). Xiang Kong*, Varun Gangal*, and Eduard Hovy.
+[Sentence Cloze Dataset with High Quality Distractors From Examinations](). Xiang Kong*, Varun Gangal*, and Eduard Hovy. ACL2020.
 
 ## Dependencies
 * Python 3.6+
