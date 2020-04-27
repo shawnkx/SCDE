@@ -19,7 +19,7 @@ Code for the paper:
     pip install .
 ### Preprocessing (get the AP+AN context features)
     python extract_features.py --output_dir all_prev_next_test --input_dir scde_data/ --feature_type apn
-### Finetune a BERT-based model
+### Finetune a BERT-based model in folder transformers
     bash train.sh feature_dir
 
 
