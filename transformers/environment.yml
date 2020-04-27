@@ -1,0 +1,5 @@
+name: pt1.2
+channels:
+  - defaults
+prefix: /home/xiangk/anaconda2/envs/pt1.2
+
