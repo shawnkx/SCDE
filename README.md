@@ -6,6 +6,7 @@ Code for the paper:
 
 ## Leaderboard
 If you have new results, it would be great if you could submit it [here](https://paperswithcode.com/sota/question-answering-on-scde) (https://paperswithcode.com/sota/question-answering-on-scde).
+
 ## Dependencies
 * Python 3.6+
 * Pytorch 1.2
@@ -28,12 +29,13 @@ If you have new results, it would be great if you could submit it [here](https:/
 If you find our data or code useful, please consider citing our paper:
 ```
 @inproceedings{xiang2020sentence,
-  title={Sentence Cloze Dataset with High Quality Distractors from Examinations},
+  title={SCDE: Sentence Cloze Dataset with High Quality Distractors from Examinations},
   author={Kong, Xiang and Gangal, Varun and Hovy, Eduard},
   booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
   year={2020}
 }
 ```
+
 ## Acknowledgement
 * The code is adapted from Transformers (https://github.com/huggingface/transformers). Thanks!
 
